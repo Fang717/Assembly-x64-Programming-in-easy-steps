@@ -22,3 +22,12 @@ _start:
     mov eax, 60
     xor edi, edi
     syscall
+
+; 1. The INCLUDELIB and ExitProcess PROTO lines are removed since they are specific to Microsoft's MASM syntax.
+; 2. The .DATA section is renamed to section .data.
+; 3. The REAL4 and REAL8 data types are replaced with dd (define double-word) and dq (define quad-word), respectively, since NASM uses a different syntax for defining data.
+; 4. The XMMWORD PTR is removed since NASM does not require this syntax for accessing vector registers.
+; 5. The main PROC and main ENDP lines are removed since NASM does not use this syntax for defining procedures.
+; 6. The END statement is removed since it is not required in NASM.
+; 7. The _start label is added, which is the entry point for Linux executables.
+; 8. The ExitProcess call is replaced with a Linux system call (syscall) to exit the program. The system call number for exit is 60, and the exit status is set to 0 (success) using xor edi, edi.
