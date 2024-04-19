@@ -3,10 +3,10 @@
 ; --------------------------------------------------------------------
 
 section .data
-    filePath db "/home/user/Desktop/Quote.txt", 0 ; Path of file to write into.
+    filePath db "/home/user/Quote.txt", 0 ; Path of file to write into.
     fileHandle dq 0 ; Variable to store file handle.
     txt db "The truth is rarely pure and never simple.", 0 ; String to write.
-    txt_len equ $ - txt ; Length of the string (excluding null terminator)
+    txt_len equ $ - txt - 1 ; Length of the string (excluding null terminator)
     num dd 0
 
 section .text
