@@ -1,3 +1,6 @@
+;--------------------------------------------------------------------
+; FMA: A program to demonstrate fused multiply-add operations.
+;--------------------------------------------------------------------
 section .data
     numA dd 2.0           ; Define numA as single-precision float (REAL4)
     numB dd 8.0           ; Define numB as single-precision float (REAL4)
