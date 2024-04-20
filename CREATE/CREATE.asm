@@ -5,7 +5,7 @@
 
 
 section .data
-    filePath db "/home/yuriy/Quote.txt", 0 ; Path of file to write into.
+    filePath db "/home/user/Quote.txt", 0 ; Path of file to write into.
     fileHandle dq 0 ; Variable to store file handle.
 
 section .text
