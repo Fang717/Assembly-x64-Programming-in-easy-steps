@@ -18,7 +18,7 @@ _start:
     %define FILE_ATTRIBUTE_NORMAL 128
 
 SECTION .data
-    filePath db '/home/mike_/Desktop/Quote.txt', 0 ; Path of file to read
+    filePath db '/home/user/Quote.txt', 0 ; Path of file to read
     fileHandle dq 0 ; Variable to store file handle
     buffer times 100 db 0 ; Variable to store bytes read
     num dd 0 ; Variable to store number of bytes read
