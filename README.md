@@ -14,8 +14,11 @@ DDD (Data Display Debugger) – GDB GUI
 IDA Freeware v8.4, for disassembly and analysis
 
 
-https://t.ly/5gt_Z
+📚 About the Book
+Mike McGrath’s Assembly x64 Programming in Easy Steps is a compact and beginner-friendly introduction to Intel 64-bit assembly language, suitable for both newcomers and those transitioning from other architectures.
 
+You can purchase a copy here:
+👉 https://t.ly/5gt_Z
 
 
 
