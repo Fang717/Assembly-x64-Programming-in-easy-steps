@@ -1,9 +1,7 @@
-Porting source code of the book "Assembly x64 Programming in easy steps" by by Mike McGrath  from MASM to YASM on Linux x64.
-It is a nice little book to start learning Intel Assembly language. You need install Yasm Modular Assembler and DDD GUI for GNU Debugger.
-Download and install Free version of Ida Pro 8.4.
-
-
-You can purchase this book on Amazon.
+📘 Porting "Assembly x64 Programming in Easy Steps" to YASM on Linux
+This repository contains a port of the example source code from the book
+Assembly x64 Programming in Easy Steps by Mike McGrath,
+originally written for MASM on Windows, now adapted to run with YASM on Linux x64.
 
 
 https://t.ly/5gt_Z
